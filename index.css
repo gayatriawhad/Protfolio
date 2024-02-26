@@ -1,0 +1,100 @@
+
+nav{
+    color:mediumaquamarine;
+    font-style:normal;
+    background-image:url("nav bar.jpg");
+}
+nav a{
+    color: mediumaquamarine;
+    text-decoration: none;
+}
+nav a:hover{
+    color: white;
+}
+#button2{
+    background-color: aliceblue;
+    color: black;
+}
+#button2 a{
+    color:black;
+    text-decoration: none;
+}
+#button2 a:hover{
+    color: yellow;
+    text-decoration: none;
+}
+  
+ 
+
+.class1{
+    color: aliceblue;
+    text-align:start;
+    background-color: black;
+    padding-top: 3cap;
+    padding-bottom: 2cap;
+    border-radius: 2cap;
+}
+#special{
+    text-align: center;
+    border-radius: 2cap;
+    color: aliceblue;
+    background-color: black;
+}
+#special2{
+  
+    text-align: center;
+}
+body{
+    background-color:beige;
+}
+#new{
+    border-radius:20cap
+}
+button{
+    border-radius: 50cap;
+    margin-left: 45%;
+    background-color:black; 
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 30px;
+}
+button a{
+    color: white;
+    text-decoration: none;
+}
+button a:hover{
+    color:yellow;
+    text-decoration: none;
+}
+#last{
+    border: 2cap;
+    border-width: 2cap;
+    border-color: black;
+    border-style: double;
+    border-width: 1cap;
+    border-radius: 1cap;
+}
+#last a{
+    text-decoration: none;
+}
+#last a:hover{
+    color: yellow;
+    text-decoration: none;
+    
+}
+
+@media (max-width: 600px) {
+    
+    .navbar {
+      flex-direction: column;
+      align-items: center;
+    }/* Stack the links vertically */
+     
+     .navbar a {
+        margin: 5px;
+        padding: 5px;
+      }}/* Reduce the margin and padding of the links */
